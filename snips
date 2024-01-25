@@ -1,0 +1,869 @@
+
+C:\Users\user2\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.12
+python-3.12.1-amd64.exe
+C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2
+
+
+C:\Users\user2\PycharmProjects
+C:\Users\user2\Dropbox\PycharmProjects
+
+
+
+https://replit.com/@appbrewery/band-name-generator-end
+
+https://truist.udemy.com/course/100-days-of-code/learn/lecture/23544648#announcements
+https://truist.udemy.com/course/100-days-of-code/learn/lecture/23544648#announcements
+/course/100-days-of-code/learn/lecture/17825914
+
+https://replit.com/start/preferences
+ 
+
+
+https://www.w3schools.com/python/python_ref_functions.asp
+
+
+
+https://app.auditorium.ai/
+Enroll in a course
+ 
+
+
+
+print("e.g. print("Hello " + "world") ")
+
+
+
+ ### Data structures and algorithms (DSA)
+https://www.geeksforgeeks.org/basic-coding-problems-in-dsa-for-beginners/?ref=footer
+
+
+num1 = int(input())
+num2 = int(input())
+print(num1 * num2)
+
+mul = num1 * num2
+print(mul)
+
+
+str=input()
+print(len(str))
+
+printf(len(input()))
+
+str(intger_var) 
+
+a = float(123)
+print(type(a))
+
+print(" that variable is a ")
+print(type(a))
+
+print(" a =  " + str(a))
+
+float("100.5")
+
+num=int(str)
+print(NN[0])
+
+
+d0 = two_digit_number[0]
+d1 = two_digit_number[1]
+print(int(d0) + int(d1))
+
+PEMDASLR
+print(round(8/3,2))
+print(8/3) # division always returns a float
+print(8//3)   ### Floor division
+
+result /= 2 
+c += 1
+
+BMI 
+print( int(float(weight)/float(height)**2) )
+
+Just completed lesson 23 interactive Coding Exercise BMI
+
+a = float(123)
+print(type(a))
+
+print(" that variable is a ")
+print(type(a))
+
+print(" a =  " + str(a))
+
+
+
+# f-String
+score =0
+
+print(f"your score is {score}" )
+
+Weeks of your life
+print(age*52 )
+
+S1 = input()
+print("f{S1}")
+print(f"{input()}")
+
+print(float(age)*52  )
+ 
+print(f"You have {(90-(int(age)))*52} weeks left." )  
+
+age=12
+print("you are " + str(age) + " years old")
+print(f"you are {age} years old")
+
+
+### Tip Calculator 
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10, 12, or 15? ")) 
+people = int(input("How many people to split the bill? "))
+total = (bill * (tip)/100 ) + bill
+print(f"Each person should pay: ${round(total/people,2)}")
+
+### Tip Calculator 
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10, 12, or 15? ")) 
+people = int(input("How many people to split the bill? "))
+total = ((bill * (tip)/100 ) + bill)/people
+# print(f"Each person should pay: ${round(total/people,2)}")
+split= "{:.2f}".format(total,2)
+print(f"Each person should pay {split}.")
+
+
+if condition1:
+  do A
+elif con2:
+ else
+
+
+https://flexiple.com/python/python-switch-case
+
+	
+BMI=(float(weight)/float(height)**2) 
+# print(f" {BMI} ") 
+if BMI > 35:
+  print(f"Your BMI is {BMI}, you are clinicallly obese")
+elif BMI > 30:
+  print(f"Your BMI is {BMI}, you are obese.")
+elif BMI >= 25:
+  print(f"Your BMI is {BMI}, you are slightly overweight.")
+elif BMI > 18.5:
+  print(f"Your BMI is {BMI}, you have a normal weight.")
+else:
+  print(f"Your BMI is {BMI}, you are underweight")
+
+
+
+# Leap Year
+if year % 4 == 0:
+  if year % 100 == 0:    
+    if year % 400 == 0:
+      print(f"Leap year")
+    else:
+      print("Not leap year")
+  else:
+    print("Leap year")
+else:
+  print("Not leap year")
+  
+
+import calendar
+print(f"{calendar.isleap(year)}")
+
+
+
+
+
+### PIZZA 
+print("Thank you for choosing Python Pizza Deliveries!")
+size = input() # What size pizza do you want? S, M, or L
+add_pepperoni = input() # Do you want pepperoni? Y or N
+extra_cheese = input() # Do you want extra cheese? Y or N
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+
+if size == "S":
+  bill  = 15
+  if add_pepperoni == "Y":
+    bill += 2 
+elif size == "M":
+  bill = 20
+  if add_pepperoni == "Y":
+    bill += 3
+else:
+  bill = 25
+  if add_pepperoni == "Y":
+    bill += 3
+    
+if extra_cheese == "Y":
+  bill += 1
+
+
+print(f"Your final bill is: ${bill}.")
+
+
+
+elif age >= 45 and age <= 55:
+  print("Everything will be OK, have a free ride on us.")
+  
+  
+Angela Yu
+Jack Bauer
+  
+print( name1.count("a") ) 
+
+
+name1_l=name1.lower()
+print(f"{name1_l}")
+
+
+name1_l=name1.lower()
+print(f"{name2.lower()}")
+
+
+  print(f""{char},end="")
+
+
+####
+
+
+for char in  ('t', 'r','u','e','l','o','v','e'):
+  print(f"{both_names.count(char)}")
+  both_names.count(char)
+  
+
+print(f"{name1.count('a')}") 
+print(f"   True Love")
+for char in  ('t', 'r','u','e','l','o','v','e'):
+  c_one=print( name1_LOW.count("{char}") ) 
+  print(f"{char},{c_one}")
+print( name1_LOW.count("a") ) 
+
+
+print(f"{name1_l}")
+print( name1_l.count("a") ) 
+
+print(f"{name2.lower()}")
+#  name2.count.lower(j)
+
+
+t = both_names.count("t")
+r = both_names.count("r")
+u = both_names.count("u")
+e = both_names.count("e")
+
+l = both_names.count("l")
+o = both_names.count("o")
+v = both_names.count("v")
+e = both_names.count("e")
+
+print(f"The Love Calculator is calculating your score..."
+print(f"Your score is {d1}{d2}, you are alright together.")
+
+
+You can check your values against mine using this table:
+
+Name 1	Name 2	Score
+Brad Pitt	Jennifer Aniston	73
+Prince William	Kate Middleton	67
+Ashton Kutcher	Mila Kunis	63
+Angela Yu	Jack Bauer	53
+David Beckham	Victoria Beckham	45
+Mario	Princess Peach	43
+Kanye West	Kim Kardashian	42
+
+
+print("The Love Calculator is calculating your score...")
+name1 = input() # What is your name?
+name2 = input() # What is their name?
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+d1="string"
+d2=d1
+both_names= name1.lower() + name2.lower()
+# both_names="Kanye West	Kim Kardashian"
+print(f"{both_names}")
+# name1_LOW=name1.lower()
+# name2_LOW=name2.lower()
+t = both_names.count("t")
+r = both_names.count("r")
+u = both_names.count("u")
+e = both_names.count("e")
+
+d1=t + r + u + e
+
+l = both_names.count("l")
+o = both_names.count("o")
+v = both_names.count("v")
+e = both_names.count("e")
+
+print(l+o+v+e) 
+d2=l+o+v+e
+print(type(d1))
+print(type(d2))
+
+SCORE=int(str(d1) + str(d2))
+
+if SCORE <= 9 or SCORE >=91:
+  SUMMARY = "you go together like coke and mentos."
+elif SCORE >= 40 and SCORE <= 50:
+  SUMMARY = "you are alright together."
+else:
+  SUMMARY = "."
+
+
+print(f"Your score is {SCORE}, {SUMMARY}")
+
+  
+
+
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+
+Welcome to Treasure Island.
+Your mission is to find the treasure.
+You're at a cross road. Where do you want to go? Type "left" or "right" 
+
+
+
+if "left" in choice1:
+
+
+for x in range(1, 6):
+  #print(f"x={x}")
+  D1=random.randint(0, 1)
+  if D1 == 0:
+    print("Heads.")
+  else:
+    print("Tails.")
+	
+	
+
+### BANKER ROULETTE
+
+Angela, Ben, Jenny, Michael, Chloe
+names = names_string.split(", ")
+
+print(names_string[2])
+
+  D1=random.randint(0, 4)
+  
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+fruits[-1] = "Melons"
+fruits.append("Lemons")
+print(fruits)
+
+['Strawberries', 'Nectarines', 'Apples', 'Grapes', 'Peaches', 'Cherries', 'Melons', 'Lemons']
+['Strawberries', 'Nectarines', 'Apples', 'Grapes', 'Peaches', 'Melons', 'Pears', 'Lemons']
+
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+ 
+dirty_dozen = [fruits, vegetables]
+ 
+print(dirty_dozen[1][1])
+
+ ### Iterate through a Nested List
+https://www.learnbyexample.org/python-nested-list/
+L = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]   
+for list in L:
+    for number in list:
+        print(number, end=' ')
+# Prints 1 2 3 4 5 6 7 8 9
+
+user_choice = int(input("Choose 0 for rock, 1 for paper or 2 for scissors: "))
+
+if int(user_choice) == computer_choice:
+
+if int(user_choice) == int(computer_choice):
+
+
+print(f"{h_sum},{round(h_sum/student_count,2)}")
+
+
+
+sum=0
+for n in range(1,101):  ## Doesn't include the largest number
+  sum=sum+n
+# print(f"n={n}")
+print(f"the sum is {sum}")
+
+
+sum=0
+for n in range(1,target+1):  ## Doesn't include the largest number
+  if n % 2 == 0:
+    sum=sum+n
+# print(f"n={n}")
+print(f"{sum}")
+
+
+
+import random
+x = [1,2,3,4,5]
+random.shuffle(x)
+print(x)
+
+
+def my_func ():   ## Indent after a colon 
+  ...
+  
+  
+  
+num_of_hurdles = 6
+while num_of_hurdles > 0:
+  jump()
+  num_of_hurdles -=1
+  print(num_of_hurdles)
+
+for loop to iterate in a list of fruits
+while loop to continue while checking a condition ... boolean 
+
+
+
+looking over the shoulder of a stormtrooper siting at a red 1960s style IBM console typing python code.  Zoom in from seeing the whole room to just seeing the computer screen
+
+
+Dictionary
+{KEY:Value}
+{"Bug":"An Error"}
+
+Dict_Name = {
+  "Bug":"An Error",
+  "Function":"Piece of Code",
+}
+
+list[2]
+
+Dict_Name["bug"]
+print(Dict_Name["Bug"])
+
+print(student_scores["Harry"])
+
+
+for K
+
+
+for KEY in student_scores:
+  # print(KEY) 
+  print(f"{student_scores[KEY]}")
+  
+  
+  # TODO-2: Covert scores into grades.
+for student in student_scores:
+  score = student_scores[student]
+  if score > 90:
+    student_grades[student] = "Outstanding"
+  elif score > 80:
+    student_grades[student] = "Exceeds Expectations"
+  elif score > 70:
+    student_grades[student] = "Acceptable"
+  else:
+    student_grades[student] = "Fail"
+    
+print(student_grades)
+
+putting a list        into a dictionary
+putting a dictionary  into a dictionary
+You can also next a list into a list, but it isn't as useful
+you can also nest a dict in a list  BOOM
+
+
+capitals = { 
+  "France": "Paris",
+  "Germany":"Berlin",
+}
+
+travel_log = { 
+  "France": ["Paris", "Lille", "Dijon"],
+  "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+}
+
+### Nexted dictionary in a dictionary
+travel_log = { 
+  "France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visits": 12},
+  "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "Total_visist":5,"sausages_eaten":7},
+}
+
+### Nexted dictionary in a list 
+travel_log = { 
+ {"country": "France", "cities_visited": ["Paris", "Lille", "Dijon"], "total_visits": 12},
+ {"country": "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "Total_visist":5,"sausages_eaten":7},
+}
+
+#Nesting Dictionary in a Dictionary
+
+travel_log = {
+  "France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visits": 12},
+  "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 5},
+}
+
+#Nesting Dictionaries in Lists
+
+travel_log = [
+{
+  "country": "France", 
+  "cities_visited": ["Paris", "Lille", "Dijon"], 
+  "total_visits": 12,
+},
+{
+  "country": "Germany",
+  "cities_visited": ["Berlin", "Hamburg", "Stuttgart"],
+  "total_visits": 5,
+},
+]
+
+
+PEP 8 – Style Guide for Python Code
+https://peps.python.org/pep-0008/
+https://docs.python.org/3/library/functions.html    Built-in Functions¶
+
+
+
+LESSON 23 DAY 9 - DICTIONARY IN LIST
+95. [Interactive Coding Exercise] Dictionary in List
+
+travel_log = [
+  {
+    "country": "France",
+    "visits": 12,
+    "cities": ["Paris", "Lille", "Dijon"]
+  },
+  {
+    "country": "Germany",
+    "visits": 5,
+    "cities": ["Berlin", "Hamburg", "Stuttgart"]
+  },
+]
+
+  {
+    "country": "France",
+    "visits": 12,
+    "cities": ["Paris", "Lille", "Dijon"]
+  },
+  
+  
+new_travel_log = [
+  {
+    "country": "{country}",
+    "visits": {visits},
+    "cities": list_of_cities},
+  },
+]
+
+travel_log.append(new_travel_log}
+
+print(f"I've been to {travel_log[1]['country']} {travel_log[1]['visits']} times.")
+print(f"My favourite city was {travel_log[1]['cities'][2]}.")
+
+
+    {travel_log[1]['country']}   Germany
+    {travel_log[1]['visits']}    5
+{new_travel_log[0]['cities'][0]}
+    {travel_log[1]['cities'][2]}
+
+print(f"I also had a great time in {new_travel_log[0]['cities'][0]}  .")
+
+
+###################
+LESSON 23 DAY 9 - DICTIONARY IN LIST
+https://app.auditorium.ai/lesson/eelyNMYJKXeNJAbjssSEQz0m88XvnhX6/58076521-a623-49e9-8d55-7a0c76c60464?sl=ee33719e-7ebe-4e83-aafa-fabf7184a81b&st=eaddaad3-4d91-4dcc-a6a1-d559022fe042
+###################
+
+country = input() # Add country name
+visits = int(input()) # Number of visits
+list_of_cities = eval(input()) # create list from formatted string
+
+travel_log = [
+  {
+    "country": "France",
+    "visits": 12,
+    "cities": ["Paris", "Lille", "Dijon"]
+  },
+  {
+    "country": "Germany",
+    "visits": 5,
+    "cities": ["Berlin", "Hamburg", "Stuttgart"]
+  },
+]
+# Do NOT change the code above 👆
+
+# TODO: Write the function that will allow new countries
+# to be added to the travel_log. 
+
+def add_new_country (country,visits,list_of_cities):
+  print(f"LISTS = {list_of_cities}")
+
+new_travel_log = [
+  {
+    "country": "{country}",
+    "visits": {visits},
+    "cities": list_of_cities},
+  ]
+
+travel_log.append(new_travel_log)
+
+# Do not change the code below 👇
+add_new_country(country, visits, list_of_cities)
+print(f"I also had a great time in {new_travel_log[0]['cities'][0]}  .")
+
+print(f"I've been to {travel_log[2]['country']} {travel_log[2]['visits']} times.")
+print(f"My favourite city was {travel_log[2]['cities'][0]}.")
+
+
+print(f"I've been to {travel_log[1]['country']} {travel_log[1]['visits']} times.")
+print(f"My favourite city was {travel_log[1]['cities'][2]}.")
+
+print(f"I also had a great time in {new_travel_log[0]['cities'][0]}  .")
+
+
+
+###################    Correct Answer
+LESSON 23 DAY 9 - DICTIONARY IN LIST
+https://app.auditorium.ai/lesson/eelyNMYJKXeNJAbjssSEQz0m88XvnhX6/58076521-a623-49e9-8d55-7a0c76c60464?sl=ee33719e-7ebe-4e83-aafa-fabf7184a81b&st=eaddaad3-4d91-4dcc-a6a1-d559022fe042
+###################
+country = input() # Add country name
+visits = int(input()) # Number of visits
+list_of_cities = eval(input()) # create list from formatted string
+
+travel_log = [
+  {
+    "country": "France",
+    "visits": 12,
+    "cities": ["Paris", "Lille", "Dijon"]
+  },
+  {
+    "country": "Germany",
+    "visits": 5,
+    "cities": ["Berlin", "Hamburg", "Stuttgart"]
+  },
+]
+# Do NOT change the code above 👆
+
+# TODO: Write the function that will allow new countries
+# to be added to the travel_log. 
+def add_new_country(name,times_visited,cities_visited):
+  new_country = {}
+  new_country["country"] = name
+  new_country["visits"] = times_visited
+  new_country["cities"] = cities_visited
+  travel_log.append(new_country)
+
+
+# Do not change the code below 👇
+add_new_country(country, visits, list_of_cities)
+print(f"I've been to {travel_log[2]['country']} {travel_log[2]['visits']} times.")
+print(f"My favourite city was {travel_log[2]['cities'][0]}.")
+
+
+
+
+
+starting_dictionary = {
+    "a": 9,
+    "b": 8,
+}
+starting_dictionary["c"] = 7
+print(f"Starting D = {starting_dictionary}")
+
+
+
+order = {
+    "starter": {1: "Salad", 2: "Soup"},
+    "main": {1: ["Burger", "Fries"], 2: ["Steak"]},
+    "dessert": {1: ["Ice Cream"], 2: []},
+}
+## Print Steak
+print(order["main"][2][0]) 
+
+
+
+
+if more_bids.upper == "Y":
+  name=input("To enter a bid, input your name\n")
+
+
+print(type({bid_dict["cheat1"]}))
+
+print(type(float({bid_dict["cheat1"]})))
+
+
+
+
+myTuple = ("John w", "Peter  B", "Vicky V")
+x = '","'.join(myTuple)
+# print(x)
+print(f"\"{x}\"")
+
+
+
+###   Object Oriented Programming
+Object   Class
+  Car  = CarBlueprint()   in PascalCase (Not under_scored)
+
+Usually you will see people name the object exactly the same as the class, but in lower snake case whereas the Class is usually in PascalCase
+coffee_maker = CoffeeMaker()
+
+
+
+# Make your own Class
+class User:
+  pass
+
+
+user_1 = User()
+
+Constructor for the __init__ function
+
+
+user_1 = User("001", "angela")
+user_1 = User("001", "angela")
+
+cd /mnt/c/users/user2/dropbox/aa11/MetricOracle_2023  
+
+root@DESKTOP-MN83G39:/mnt/c/users/user2/dropbox/aa11/MetricOracle_2023#
+
+cd /mnt/c/users/user2/dropbox/
+
+
+cd PycharmProjects\day_17_create_class\.venv\Lib\site-packages\__pycache__
+_virtualenv.cpython-312.pyc
+
+
+
+
+
+
+import os
+
+for x in os.listdir('.'):
+    print(x)
+
+for x in os.listdir('/'):
+    print(x)
+
+for x in os.listdir(r'C:\Users\user2\Dropbox'):
+    print(x)
+	
+	
+	
+import platform
+uname = platform.uname()
+print(f"uname = {uname}.")
+
+	
+pip install pytube
+
+pytube.Youtube('<link to the video>').
+streams.filter(progressive=True, 
+file_extension='mp4').order_by
+('resolution').last().download()
+
+
+dir = "C:\Users\user2\Dropbox"
+
+
+
+A method always needs to have a self parameter as the first parameter so that it knows the object that calls it. 
+
+def follow(self,user):
+  user.followers += 1
+  self.followers += 1
+
+user_1.folow(user_2)
+
+
+
+
+question_bank = [
+    Question(q1, a1),
+    Question(q2, a2),  
+]
+
+
+###  py_charm proto   
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+# datapy
+# mail.py
+# question_model.py
+# quiz_brain.py
+
+PrettyTable
+https://www.luke.maurits.id.au/software/prettytable/
+https://code.google.com/archive/p/prettytable/
+
+
+
+
+import csv
+with open ("weather_data.csv") as data_file:
+    data = csv.reader(data_file)
+    temperatures = []
+    for row in data:
+        print(row[1]) 
+		
+import csv
+with open ("weather_data.csv") as data_file:
+    data = csv.reader(data_file)
+    temperatures = []
+    for row in data:
+        if row[1] != "temp":
+            temperatures.append(int(row[1]))
+    print(temperatures)
+		
+		
+		
+['12', '14', '15', '14', '21', '22', '24']
+[12, 14, 15, 14, 21, 22, 24]
+
+https://pandas.pydata.org/docs/
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html#min-tut-06-stats    ### pivot tables 
+
+import pandas
+
+
+Monday,12,Sunny
+
+
+print(data[data.day == "Monday"])
+monday = data[data.day == "Monday"]
+monday_temp_c = monday.temp[0]
+print(monday_temp_c, end=', ')
+monday_temp_f = monday_temp_c * 9/5 + 32
+print(monday_temp_f)
+
+
+https://www.sporcle.com/games/Matt/find_the_states
+
+
+# States to learn.csv
